@@ -322,10 +322,10 @@ header {
   color: rgb(255, 255, 255);
 }
 .logo {
-  width:18vw;
-  min-width: 200px;
-  min-height: 200px;
-  height: 10vw;
+  width:13vw;
+  min-width: 150px;
+  min-height: 100px;
+  height: 8vw;
 }
 header nav ul li {
   display: flex;
@@ -387,7 +387,7 @@ body header h1 {
   margin-bottom: 90px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 600;
-  font-size: clamp(35px, 4.8vw, 5vw);
+  font-size: clamp(38px, 5.2vw, 5.5vw);
   text-shadow: -5px -5px 1px rgb(20, 78, 165), -4px -4px rgb(20, 78, 165), -3px -3px rgb(20, 78, 165);
 }
 
@@ -410,7 +410,6 @@ body header h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 600px;
   display: flex;
   flex-direction: column;
  
@@ -424,10 +423,11 @@ body header h1 {
 }
 .h3-banner{
   color: white;
+  margin-top: 20px;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 600;
-  font-size: clamp(25px, 3.1vw, 3.8vw);
+  font-size: clamp(25px, 3.3vw, 4.0vw);
   text-shadow: -5px -5px 1px rgb(0, 0, 0), -4px -4px rgb(0, 0, 0), -3px -3px rgb(20, 78, 165);
 }
 .h4-banner{
@@ -436,16 +436,17 @@ body header h1 {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 600;
-  font-size: clamp(12px, 1.2vw, 1.4vw);
+  font-size: clamp(15px, 1.5vw, 1.7vw);
   padding-top: 3.5vw;
   text-shadow: -5px -5px 1px rgb(0, 0, 0), -4px -4px rgb(0, 0, 0), -3px -3px rgb(0, 0, 0);
+  margin-bottom: 20px;
 }
 .h4-marcas{
   color: rgb(20, 78, 165);
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 600;
-  font-size: clamp(12px, 1.2vw, 1.4vw);
+  font-size: clamp(17px, 1.6vw, 1.8vw);
   padding-top: 3.5vw;
 }
 .marcas-div{
@@ -458,6 +459,13 @@ body header h1 {
   width: 280px;
   height: 200px;
 }
+.volksw img{
+  height: 220px !important; 
+}
+.scania img{
+  width: 330px;
+}
+
 .marcas p{
   color: rgb(20, 78, 165) ;
   font-weight: 700;
