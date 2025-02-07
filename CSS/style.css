@@ -195,7 +195,7 @@ footer {
   min-height: 50px;
   max-width: 13vw;
   padding: 0 1rem;
-  color: #fff;
+  color: rgb(20, 78, 165);
   font-size: 15px;
   border: 1px solid rgb(20, 78, 165);
   border-radius: 6px 0 0 6px;
@@ -432,6 +432,7 @@ body header h1 {
 }
 .h4-banner{
   color: white;
+  margin-top: 200px;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 600;
