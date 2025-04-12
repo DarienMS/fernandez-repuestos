@@ -146,7 +146,7 @@ footer {
 .div-footer{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
   
   
@@ -155,7 +155,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
- padding-right: 100px;
+ 
   
 
 }
@@ -225,11 +225,14 @@ footer {
 }
 
 
-  
+  .div_copyright{
+    display: flex;
+    justify-content: center;
+  }
 
 .copyright {
   color: rgb(103, 101, 101);
-  margin: 8px 0 10px 35px;
+  margin: 8px 0px 10px 0px;
   font-size: 12px;
 }
 
@@ -309,6 +312,7 @@ header {
     font-weight: 700;
     font-size: 20px;
     font-style: italic ;
+    margin-left: 15px;
    
    
 }
@@ -456,15 +460,12 @@ body header h1 {
   flex-wrap: wrap;
 }
 .marcas-div img{
-  width: 280px;
-  height: 200px;
+  width: 300px;
+  height: 250px;
+  object-fit: contain;
+  
 }
-.volksw img{
-  height: 220px !important; 
-}
-.scania img{
-  width: 330px;
-}
+
 
 .marcas p{
   color: rgb(20, 78, 165) ;
@@ -474,6 +475,7 @@ body header h1 {
   padding-top: 250px;
   padding-left: 5vw;
   padding-right: 5vw;
+  margin-left: 7px
    ;
 }
 
@@ -506,6 +508,9 @@ body header h1 {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+  }
+  .copyright{
+    margin: 8px 0 10px 0;
   }
 }
 @media (max-width: 900px) {
